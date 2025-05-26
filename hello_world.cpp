@@ -2,10 +2,11 @@
 #include <string>
 using namespace std;
 
-int main()
+int
+main()
 {
-	string name;
-	cin >> name;
-	cout << "hello world from " << name;
-	return 0;
+  string name;
+  cin >> name;
+  cout << "hello world from " << name;
+  return 0;
 }
