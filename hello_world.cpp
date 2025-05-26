@@ -1,9 +1,11 @@
-#inlude <iostream>
-
+#include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-	cout << "hello world";
+	string name;
+	cin >> name;
+	cout << "hello world from " << name;
 	return 0;
 }
