@@ -3,7 +3,7 @@
 
 int main()
 {
-	//комментарий
+	//comment
 	std::string name;
 	std::cin >> name;
 	std::cout << "hello world from " << name;
